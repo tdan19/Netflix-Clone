@@ -1,0 +1,36 @@
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    font-family: sans-serif;
+    background-color: transparent;
+  }
+  .nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  .nav-black {
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+  }
+  .navs {
+    width: 120px;
+  }
+  .Header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
