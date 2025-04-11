@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Nav.css'
-import netflixlogo from './Assets/Netflix-Logo.png'
+import netflixlogo from './Assets/logo.png'
 function Nav() {
     const [show, handShow] = useState(false);
 
