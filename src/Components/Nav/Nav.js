@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Nav.css'
-import netflixlogo from './Assets/logo.png'
-import avator from './Assets/profile_img.png'
+import netflixlogo from './../../Assets/logo.png'
 function Nav() {
     const [show, handShow] = useState(false);
 
@@ -26,7 +25,7 @@ function Nav() {
     <div className="images">
       <img className="navs" src={netflixlogo} alt="Netflix-logo" />
   
-    <img className='avator' src={avator} alt="" />
+    <button className='avator'>Sign In</button>
   
 
     </div>

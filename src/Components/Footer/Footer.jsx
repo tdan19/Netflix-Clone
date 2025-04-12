@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css'
-import youtube_icon from './Assets/youtube_icon.png'
-import twitter_icon from './Assets/twitter_icon.png'
-import instagram_icon from './Assets/instagram_icon.png'
-import facebook_icon from './Assets/facebook_icon.png'
+import youtube_icon from './../../Assets/youtube_icon.png'
+import facebook_icon from './../../Assets/facebook_icon.png'
+import instagram_icon from './../../Assets/instagram_icon.png'
+import twitter_icon from './../../Assets/twitter_icon.png'
 function Footer() {
   return (
     <div className='footer'>

@@ -24,3 +24,8 @@
     color: gray;
     font-size: 14px;
 }
+.footer-icons img:hover {
+    filter: brightness(0.7); /* dims the color */
+    transform: scale(1.1);   /* subtle zoom */
+    background-color: #2980b9;
+  }
